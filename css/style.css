@@ -1,0 +1,143 @@
+@import url('http://fonts.cdnfonts.com/css/norse');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Heebo:wght@500&family=Montserrat&family=Rubik+Mono+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.background{
+    width: 550px;
+    height: 100vh;
+}
+.background_image{
+    width: 100px;
+    height: 250px;
+}
+.odin{
+    padding: 10px;
+    width: 120px;
+    height: 150px;
+}
+.odin_main{
+    width: 550px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.odin_main > span{
+    color:#fff;
+    font-family: 'Norse', sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.img_footer{
+    position:absolute;
+    bottom:0;
+    width: 550px;
+    color:#fff;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Akshar', sans-serif;
+    font-size:20px;
+}
+.img_footer > span > a{
+    color:#fff;
+}
+.about{
+    width: 100%;
+    background-color: #E5E7EB;
+}
+.about_text{
+    position: relative;
+    top:20px;
+    font-size:22px;
+    font-family: 'Heebo', sans-serif;
+    padding: 50px;
+}
+.right_side{
+    width: 50%;
+}
+form{
+    padding: 10px 0px 20px 50px;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.form_title{
+    color: rgb(22, 22, 22);
+    font-family: 'Heebo', sans-serif;
+    font-size:26px;
+}
+form > table{
+    padding-top: 40px;
+    text-align: left;
+    color:rgb(94, 92, 92);
+    font-family: 'Heebo', sans-serif;
+}
+th > input{
+    border:1px solid #848482;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+}
+th {
+    padding: 10px 50px 0px 0px;
+}
+.footer{
+    padding:50px;
+    background-color: #E5E7EB;
+    height: 100vh;
+}
+.footer button{
+    width: 180px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Heebo', sans-serif;
+    color:#fff;
+    font-size:16px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    background-color: #2f5733;
+    cursor: pointer;
+}
+.account_footer{
+    padding-top: 20px;
+}
+.account_footer span{
+    font-size: 18px;
+    font-family: 'Heebo', sans-serif;
+}
+.account_footer span a{
+    color: #2f5733;
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    .background{
+        width: 100vw;
+    }
+    .odin_main{
+        width: 100vw;
+    }
+    .right_side{
+        display: none;
+    }
+    .img_footer{
+        width: 100vw;
+    }
+}
