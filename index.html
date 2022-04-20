@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="images">
+            <div class="background_image">
+                <img class="background" src="/images/halie-west-25xggax4bSA-unsplash.jpg" alt="" />
+            </div>
+            <div class="odin_main">
+                <img class="odin" src="/images/odin-lined.png" alt="" />
+                <span>ODIN</span>
+            </div>
+            <div class="img_footer">
+                <span>Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></span>
+            </div>
+        </div>
+        <div class="right_side">
+            <div class="about">
+                <div class="about_text">
+                    <span>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</span><br>
+                    <span>Sign up <i>now</i> to get started.</span><br><br>
+                    <span>You <i>know</i> you want to.</span>
+                </div>
+            </div>
+            <form action="/" method="get">
+                <span class="form_title">Let's do this!</span>
+                <table>
+                    <tr>
+                        <th>
+                            <label for="fname">FIRST NAME</label><br>
+                            <input type="text" id="fname" name="fname" value="Thor"><br>
+                        </th>
+                        <th>
+                            <label for="lname">LAST NAME</label><br>
+                            <input type="text" id="lname" name="lname" value="Odinson"><br>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="email">EMAIL</label><br>
+                            <input type="email" id="email" name="email" value=""><br>
+                        </th>
+                        <th>
+                            <label for="pnumber">PHONE NUMBER</label><br>
+                            <input type="number" id="pnumber" name="pnumber" value=""><br>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="password">PASSWORD</label><br>
+                            <input type="password" id="password" name="password" value=""><br>
+                        </th>
+                        <th>
+                            <label for="cpassword">CONFIRM PASSWORD</label><br>
+                            <input type="password" id="cpassword" name="cpassword" value=""><br>
+                        </th>
+                    </tr>
+                        <tr><td colspan=2  id=error></td></tr>
+                </table>
+            </form>
+            <div class="footer">
+                <button id="btn" type="submit">Create Account</button>
+                <div class="account_footer">
+                    <span>Already have an account? <a href="#">Log in</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>
